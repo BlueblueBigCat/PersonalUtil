@@ -8,5 +8,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (Empty)
-
++ (BOOL)isNilOrEmpty:(NSString *)str;
 @end
