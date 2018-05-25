@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UtilStore_Example' do
+  pod 'UtilStore', :path => '../'
+
+  target 'UtilStore_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
